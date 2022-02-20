@@ -418,6 +418,7 @@ if __name__ == '__main__':
             outfile.write("failure")
             outfile.write("\n")
         end = time.time() - start
+        #Comment out when timing runs
         print("time: {} minutes".format(end/60))
         #times.append((end/60))
     
